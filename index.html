@@ -1,59 +1,60 @@
 <html>
 
 <head>
-    <title>U do U!</title>
+    <title>
+        Zaggie's!
+    </title>
+
+    <body>
+        <header>
+            <h1>Best Pizza Ever!</h1>
+            <h3>Come and get some good lovin'</h3>
+        </header>
+
+        <main>
+
+
+
+            <section id="contact-form">
+                <h2>Place Order</h2>
+                <form method="GET" action="place-order.php">
+                    <h4>Delivery</h4>
+                    <input name="deliveryMethod" type="radio" value="delivery" /> Delivery <br />
+                    <input name="deliveryMethod" type="radio" value="pickup" /> Pickup <br />
+
+
+
+                    <input name="address1" placeholder="Address Line 1" class="lg-input" /><br />
+                    <input name="address1" placeholder="Address Line 2" class="lg-input" /><br />
+
+
+                    <input name="city" placeholder="City" class="sm-input" />
+                    <input name="state" placeholder="State" class="sm-input" /><br />
+                    <input name="zip" placeholder="Zip Code" class="sm-input" />
+                    <br />
+
+                    <br />
+                    <h4>Ingredients</h4>
+                    <input name="ingredient" type="checkbox" value="pepperoni" /> Pepperoni <br />
+                    <input name="ingredient" type="checkbox" value="salami" /> Salami <br />
+                    <input name="ingredient" type="checkbox" value="bacon" /> Bacon <br />
+                    <input name="ingredient" type="checkbox" value="sausage" /> Italian Sausage <br />
+                    <input name="ingredient" type="checkbox" value="onion" /> Onions <br />
+                    <input name="ingredient" type="checkbox" value="peppers" /> Green Peppers <br />
+
+
+                </form>
+            </section>
+
+
+            <footer>
+                <centre>
+                    &copy; 2020<br />
+                    <a href="#">Terms of Service</a>
+                </centre>
+            </footer>
+        </main>
+    </body>
 </head>
-
-<body>
-    <header height="100">
-        <h1>My Site</h1>
-        <h3>This site is for learning</h3>
-        <h6>This is the smallest text on the page</h6>
-    </header>
-
-    <main>
-        <table border="1px" width="100%">
-
-            <thead>
-                <tr>
-                    <th>Type</th>
-                    <th>Ingredients</th>
-                    <th>Price</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Pepperoni</td>
-                    <td>Pepperoni, Mozza Cheese</td>
-                    <td>$18.99</td>
-                </tr>
-
-                <tr>
-                    <td>Meat Lovers</td>
-                    <td>Pepperoni, Italian Sausage, Ham, Bacon, Salami</td>
-                    <td>$21.99</td>
-                </tr>
-
-                <tr>
-                    <td>Hawaiian</td>
-                    <td>Ham and Pineapple</td>
-                    <td>$16.99</td>
-                </tr>
-            </tbody>
-        </table>
-
-
-    </main>
-
-    <br />
-    <br />
-    <br />
-    <br />
-
-
-    <footer>&copy; Copyright &nbsp; 2020</footer>
-</body>
-
-
 
 </html>
