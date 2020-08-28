@@ -1,4 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Comic+Neue:300&display=swap');
 body {
-    background: #ffcc08;
-    color: #0af;
+    font-family: "Comic Neue", sans-serif;
+    font-weight: 150;
+    margin: 0px;
+}
+
+body h1 {
+    font-weight: 300;
+    margin: 20px 30px;
+    margin
+}
+
+#main-header {
+    border-button: 2px solid #000;
 }
